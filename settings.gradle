@@ -1,2 +1,10 @@
+pluginManagement {
+    repositories {
+        mavenLocal()
+    }
+}
+
 rootProject.name = 'clevertec-gradle-hw'
+include 'gradle-hw-api', 'gradle-hw-core'
+include 'gradle-hw-core'
 

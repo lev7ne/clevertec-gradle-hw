@@ -1,0 +1,14 @@
+plugins {
+    id "my-plugin" version "0.2.0"
+}
+
+dependencies {
+    implementation "ru.clevertec:utils:${clevertecUtilsVersion}"
+
+    testImplementation "org.junit.jupiter:junit-jupiter:${junitVersion}"
+    testRuntimeOnly "org.junit.platform:junit-platform-launcher"
+}
+
+test {
+    useJUnitPlatform()
+}
