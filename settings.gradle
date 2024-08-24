@@ -1,2 +1,8 @@
+pluginManagement {
+    repositories {
+        mavenLocal()
+    }
+}
+
 rootProject.name = 'clevertec-gradle-hw'
 
